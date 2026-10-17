@@ -53,7 +53,7 @@ const tamilCopy: Record<string, string> = {
   'Start an enquiry':'விசாரணையைத் தொடங்குங்கள்','All rights reserved.':'அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.','WEBSITE DEMO CREATED FOR PRESENTATION PURPOSES':'விளக்கக் காட்சிக்காக உருவாக்கப்பட்ட இணையதள மாதிரி','Made with care':'அக்கறையுடன் உருவாக்கப்பட்டது',
   'Chat with N.N Mahal on WhatsApp':'N.N மஹாலுடன் வாட்ஸ்அப்பில் உரையாடுங்கள்','Chat with us on WhatsApp':'வாட்ஸ்அப்பில் தொடர்புகொள்ளுங்கள்','Close navigation menu':'வழிசெலுத்தல் பட்டியை மூடவும்','Open navigation menu':'வழிசெலுத்தல் பட்டியைத் திறக்கவும்','Close gallery':'புகைப்படத்தை மூடவும்','Previous image':'முந்தைய படம்','Next image':'அடுத்த படம்','Scroll to top':'பக்கத்தின் மேலே செல்லவும்',
   'Wedding Ceremony':'திருமண நிகழ்வு','Wedding Reception':'திருமண வரவேற்பு','Engagement':'நிச்சயதார்த்தம்','Family Celebration':'குடும்பக் கொண்டாட்டம்','Traditional Function':'பாரம்பரிய நிகழ்வு','Other Event':'பிற நிகழ்வு','Under 100':'100-க்கும் குறைவு','100–250':'100–250','250–500':'250–500','500+':'500-க்கும் மேல்','Not sure yet':'இன்னும் முடிவு செய்யவில்லை',
-  'MADE FOR MOMENTS':'சிறப்பான தருணங்களுக்காக','THAT MATTER':'முக்கியமானவை','OUR STORY, YOUR CELEBRATION':'எங்கள் அறிமுகம், உங்கள் கொண்டாட்டம்',
+  'MADE FOR MOMENTS':'சிறப்பான தருணங்களுக்காக','THAT MATTER':'முக்கியமானவை',
 }
 const tamilToEnglish = Object.fromEntries(Object.entries(tamilCopy).map(([en, ta]) => [ta, en]))
 function translatePage(language: 'en' | 'ta') {
